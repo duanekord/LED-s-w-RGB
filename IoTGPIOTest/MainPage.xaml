@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="IoTGPIOTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IoTGPIOTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Margin="0,0,10,10" Background="White">
+        <ToggleSwitch x:Name="yellowToggleSwitch" Header="Yellow" HorizontalAlignment="Left" Margin="73,28,0,0" VerticalAlignment="Top" Height="86" Width="85" FontSize="26.667" Toggled="yellowToggleSwitch_Toggled"/>
+        <ToggleSwitch x:Name="blueToggleSwitch" Header="Blue" HorizontalAlignment="Left" Margin="73,148,0,0" VerticalAlignment="Top" Height="86" Width="85" FontSize="26.667" Toggled="blueToggleSwitch_Toggled"/>
+        <ToggleSwitch x:Name="redToggleSwitch" Header="Red" HorizontalAlignment="Left" Margin="73,270,0,0" VerticalAlignment="Top" Height="86" Width="85" FontSize="26.667" Toggled="redToggleSwitch_Toggled"/>
+        <ToggleSwitch x:Name="greenToggleSwitch" Header="Green" HorizontalAlignment="Left" Margin="73,403,0,0" VerticalAlignment="Top" Height="86" Width="85" FontSize="26.667" Toggled="greenToggleSwitch_Toggled"/>
+        <ToggleSwitch x:Name="whiteToggleSwitch" Header="White" HorizontalAlignment="Left" Margin="73,530,0,0" VerticalAlignment="Top" Height="86" Width="85" FontSize="26.667" Toggled="whiteToggleSwitch_Toggled"/>
+        <Ellipse x:Name="yellowIMG" HorizontalAlignment="Left" Height="86" Margin="227,28,0,0" Stroke="Black" VerticalAlignment="Top" Width="78"/>
+        <Ellipse x:Name="blueIMG" HorizontalAlignment="Left" Height="86" Margin="227,148,0,0" Stroke="Black" VerticalAlignment="Top" Width="78
+                 "/>
+        <Ellipse x:Name="redIMG" HorizontalAlignment="Left" Height="86" Margin="227,270,0,0" Stroke="Black" VerticalAlignment="Top" Width="78                  "/>
+        <Ellipse x:Name="greenIMG" HorizontalAlignment="Left" Height="86" Margin="227,403,0,0" Stroke="Black" VerticalAlignment="Top" Width="78                  "/>
+        <Ellipse x:Name="whiteIMG" HorizontalAlignment="Left" Height="86" Margin="227,530,0,0" Stroke="Black" VerticalAlignment="Top" Width="78                  "/>
+        <ToggleSwitch x:Name="allLights" Header="All" HorizontalAlignment="Left" Margin="68,616,0,0" VerticalAlignment="Top" FontSize="26.667" Toggled="allLights_Toggled"/>
+        <ToggleSwitch x:Name="rgb_RedSwitch" Header="Red RGB" HorizontalAlignment="Left" Margin="570,20,0,0" VerticalAlignment="Top" Toggled="rgb_RedSwitch_Toggled"/>
+        <ToggleSwitch x:Name="rgb_BlueSwitch" Header="Blue RGB" HorizontalAlignment="Left" Margin="570,90,0,0" VerticalAlignment="Top" Toggled="rgb_BlueSwitch_Toggled"/>
+        <ToggleSwitch x:Name="rgb_GreenSwitch" Header="Green RGB" HorizontalAlignment="Left" Margin="570,155,0,0" VerticalAlignment="Top" Toggled="rgb_GreenSwitch_Toggled"/>
+        <ToggleSwitch x:Name="policeSwitch" Header="Police Lights" HorizontalAlignment="Left" Margin="337,245,0,0" VerticalAlignment="Top" Toggled="policeSwitch_Toggled"/>
+        <ToggleSwitch x:Name="xmasSwitch" Header="Christmas Switch" HorizontalAlignment="Left" Margin="478,245,0,0" VerticalAlignment="Top" Toggled="xmasSwitch_Toggled"/>
+        <Ellipse x:Name="rgbIMG" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="171" Margin="349,28,0,0" Stroke="Black" VerticalAlignment="Top" Width="169"/>
+
+    </Grid>
+</Page>
